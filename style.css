@@ -9,7 +9,7 @@
 }
 
 header {
-    background-color: #4C80EB;
+    background-color: #4aa8ff;
     width: 100%;
     position: fixed;
     z-index: 999;
@@ -28,6 +28,13 @@ header {
 }
 
 .navigation a {
-    color:  #031a66;
-    font-size: 1em;
+    color:  #e2d6c6;
+    text-decoration: none;
+    font-size: 1.1em; 
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover {
+    color: #3c1c9c;
 }
